@@ -1,0 +1,7 @@
+# Fan curve won't be applied if any value in the array is incorrect, which makes it optional
+# Existence of this config file is mandatory
+
+cpu: [ 30, 40, 50, 60, 70, 80, 90, 100,   # Degrees in C as X axis on graph
+       20, 20, 25, 40, 60, 75, 85, 90 ]   # Fan speed in % as Y axis on graph
+gpu: [ 30, 40, 50, 60, 70, 80, 90, 100,
+       20, 20, 25, 40, 60, 75, 85, 90 ]

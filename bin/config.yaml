@@ -1,0 +1,11 @@
+# All parameters in this config are optional and can be disabled by deleting or commenting or using wrong value
+# Existence of this config file is mandatory
+
+perfmode: 4   # Performance mode: 0-balanced (or Windows), 1-turbo, 2-silent, 3-performance(?), 4-manual
+fast: 125     # Fast (or boost) limit for CPU+dGPU in Watts
+slow: 110     # Slow (or base) limit for CPU+dGPU in Watts
+apu: 45       # Limit for APU (CPU+iGPU) in Watts
+apu_st: 40    # Limit for CPU skin temperature sensor in degrees C
+dgpu_st: 50   # Limit for dGPU skin temperature sensor in degrees C
+co: -3        # Curve optimizer (aka undervolt)
+# mux: 1        # Mux (running laptop display on dGPU) status inverse, means 0-enabled and 1-disabled. Requires restart
